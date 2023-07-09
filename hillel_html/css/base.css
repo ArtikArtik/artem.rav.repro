@@ -1,0 +1,198 @@
+
+
+/* Навігація */
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 10px;
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	border: 2px solid #333;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #000;
+	transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: #34cceb;
+	color: #fff;
+}
+
+nav ul li a:hover b {
+	color: #fff;
+}
+
+/* Секція "з використанням ID" */
+#rick-morty-present,
+#contacts,
+#mene-zvut,
+#seasons-and-episodes,
+#moi-photo {
+	background-color: #34cceb;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border: 2px solid #000;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* Секція "сезони" */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+section {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+	vertical-align: top;
+}
+
+h2 {
+	text-align: center;
+}
+
+.series-list {
+	padding-left: 20px;
+}
+
+/* Вивожу елементи по центру */
+h2.smujka-rozdilna,
+dl,
+dl dt,
+dl dd,
+h3,
+article,
+footer,
+h2,
+img {
+	text-align: center;
+}
+
+<style>
+dl {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+dt {
+	flex: 0 0 50%;
+	text-align: right;
+}
+
+dd {
+	flex: 0 0 50%;
+	text-align: left;
+	margin-left: auto;
+}
+</style>
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container img {
+	display: block;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.contact-info {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact-info h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.contact-info ul {
+	list-style: none;
+	padding: 0;
+}
+
+.contact-info li {
+	margin-bottom: 10px;
+}
+
+.contact-info li strong {
+	display: inline-block;
+	width: 100px;
+}
+
+img.centered {
+	display: block;
+	margin: 0 auto;
+}
+
+<style>
+div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div img {
+	max-width: 300px; /* Змініть це значення на ваш власний розмір */
+	height: auto;
+	margin: 10px;
+}
+</style>
+
+<style>
+.photo-container {
+	display: flex;
+	justify-content: center;
+}
+
+.photo-container img {
+	width: 25%;
+	height: auto;
+	margin: 10px;
+}
+
+
+
+
